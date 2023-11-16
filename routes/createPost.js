@@ -1,5 +1,5 @@
 //Create a post 
-const express = require('express')
+const express = require('express');
 const router = express.Router();
 
 //Initizlize Firestore Database
@@ -38,4 +38,4 @@ router.get("/submit", (req, res) => {
 });
 
 
-modules.export = router;
+module.exports = router;

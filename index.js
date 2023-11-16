@@ -21,7 +21,7 @@ firebase.initializeApp(firebaseConfig);
 
 const indexRoute = require('./routes/index');
 const singlePostRoute = require('./routes/singlePost');
-// const createPostRoute = require('./routes/index');
+const createPostRoute = require('./routes/createPost');
   
 app.use("/", indexRoute); //requires 2 arg url path and the actual functionality 
 app.use("/post", singlePostRoute); //requires 2 arg url path and the actual functionality 
